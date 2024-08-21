@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="rSPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="1080.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.mpr2.SelectorController">
+   <children>
+      <Label fx:id="t" alignment="CENTER" layoutY="7.0" prefHeight="96.0" prefWidth="1080.0" text="PICK A CUISINE">
+         <font>
+            <Font size="40.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="250.0" fitWidth="250.0" layoutX="285.0" layoutY="110.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Images/Cuisine/chinese.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="250.0" fitWidth="250.0" layoutX="549.0" layoutY="110.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Images/Cuisine/italian.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="250.0" fitWidth="250.0" layoutX="814.0" layoutY="110.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Images/Cuisine/japanese.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="250.0" fitWidth="250.0" layoutX="17.0" layoutY="416.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Images/Cuisine/mexican.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="250.0" fitWidth="250.0" layoutX="284.0" layoutY="416.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Images/Cuisine/french.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="250.0" fitWidth="250.0" layoutX="548.0" layoutY="416.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Images/Cuisine/greek.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="250.0" fitWidth="250.0" layoutX="813.0" layoutY="416.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Images/Cuisine/thai.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="250.0" fitWidth="250.0" layoutX="17.0" layoutY="110.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Images/Cuisine/indian.jpg" />
+         </image>
+      </ImageView>
+      <Label fx:id="" alignment="CENTER" layoutX="86.0" layoutY="367.0" prefHeight="34.0" prefWidth="113.0" text="INDIAN" textAlignment="CENTER">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="" alignment="CENTER" layoutX="354.0" layoutY="367.0" prefHeight="34.0" prefWidth="113.0" text="CHINESE" textAlignment="CENTER">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="" alignment="CENTER" layoutX="617.0" layoutY="367.0" prefHeight="34.0" prefWidth="113.0" text="ITALIAN" textAlignment="CENTER">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="" alignment="CENTER" layoutX="86.0" layoutY="670.0" prefHeight="34.0" prefWidth="113.0" text="MEXICAN" textAlignment="CENTER">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="" alignment="CENTER" layoutX="354.0" layoutY="670.0" prefHeight="34.0" prefWidth="113.0" text="FRENCH" textAlignment="CENTER">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="" alignment="CENTER" layoutX="585.0" layoutY="670.0" prefHeight="35.0" prefWidth="178.0" text="GREEK" textAlignment="CENTER">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="" alignment="CENTER" layoutX="883.0" layoutY="367.0" prefHeight="34.0" prefWidth="113.0" text="JAPANESE" textAlignment="CENTER">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="" alignment="CENTER" layoutX="883.0" layoutY="670.0" prefHeight="34.0" prefWidth="113.0" text="THAI" textAlignment="CENTER">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Button layoutX="17.0" layoutY="110.0" mnemonicParsing="false" onAction="#indianPressed" opacity="0.0" prefHeight="250.0" prefWidth="250.0" text="Button">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="chineseButton" layoutX="286.0" layoutY="110.0" mnemonicParsing="false" onAction="#chinesePressed" opacity="0.0" prefHeight="250.0" prefWidth="250.0" text="Button">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="italianButton" layoutX="548.0" layoutY="110.0" mnemonicParsing="false" onAction="#italianPressed" opacity="0.0" prefHeight="250.0" prefWidth="250.0" text="Button">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="japaneseButton" layoutX="813.0" layoutY="110.0" mnemonicParsing="false" onAction="#japanesePressed" opacity="0.0" prefHeight="250.0" prefWidth="250.0" text="Button">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="mexicanButton" layoutX="18.0" layoutY="416.0" mnemonicParsing="false" onAction="#mexicanPressed" opacity="0.0" prefHeight="250.0" prefWidth="250.0" text="Button">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="frenchButton" layoutX="286.0" layoutY="420.0" mnemonicParsing="false" onAction="#frenchPressed" opacity="0.0" prefHeight="250.0" prefWidth="250.0" text="Button">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="greekButton" layoutX="549.0" layoutY="420.0" mnemonicParsing="false" onAction="#greekPressed" opacity="0.0" prefHeight="250.0" prefWidth="250.0" text="Button">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="thaiButton" layoutX="813.0" layoutY="416.0" mnemonicParsing="false" onAction="#thaiPressed" opacity="0.0" prefHeight="250.0" prefWidth="250.0" text="Button">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+   </children>
+   <stylesheets>
+      <URL value="@loginStyles.css" />
+      <URL value="@selectorStyles.css" />
+   </stylesheets>
+</AnchorPane>
